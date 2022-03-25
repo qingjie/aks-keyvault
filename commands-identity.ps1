@@ -14,7 +14,7 @@ $secret2Alias = "DATABASE_PASSWORD"
 $identityName = "identity-aks-kv"
 $identitySelector = "azure-kv"
 $secretProviderClassName = "secret-provider-kv"
-$acrName = "acrforaks" + $suffix
+$acrName = "qingjie" + $suffix
 $isAKSWithManagedIdentity = "true"
 
 echo "Creating Resource Group..."
