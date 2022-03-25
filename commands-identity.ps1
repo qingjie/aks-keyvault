@@ -42,7 +42,7 @@ echo "Creating Key Vault..."
 $keyVault = az keyvault create -n $keyVaultName -g $resourceGroupName -l $location --enable-soft-delete true --retention-days 7 | ConvertFrom-Json
 
 echo "Creating Secrets in Key Vault..."
-az keyvault secret set --name $secret1Name --value "Houssem" --vault-name $keyVaultName
+az keyvault secret set --name $secret1Name --value "Qingjie" --vault-name $keyVaultName
 az keyvault secret set --name $secret2Name --value "P@ssword123456" --vault-name $keyVaultName
 
 echo "Installing Secrets Store CSI Driver using Helm..."
